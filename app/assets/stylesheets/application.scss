@@ -1,0 +1,48 @@
+@import 'custom_settings';
+@import 'bootstrap/bootstrap';
+
+html {
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  img {
+    max-width: 100%;
+  }
+}
+
+.jumbotron {
+  margin-top: 2em;
+}
+
+.subsection {
+  margin-top: 4em;
+}
+
+
+
+// test
+
+// XS
+// max-width: 767px
+// max-width: 33.9em (544px)
+
+// SM
+// (min-width: 768px) and (max-width: 991px)
+// (min-width: 34em) and (max-width: 47.9em) (768)
+
+// MD
+// (min-width: 992px) and (max-width: 1199px)
+// (min-width: 48em) (max 992)
+
+// LG
+//(min-width: 1200px)
+
+// @media (min-width: 992px) and (max-width: 1199px) MD
+//@media (min-width: 1200px) LG

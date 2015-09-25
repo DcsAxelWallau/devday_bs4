@@ -1,0 +1,274 @@
+<div class="container-fluid">
+
+  <div class="container" id="section_cards">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="jumbotron jumbotron-fluid">
+          <h1 class="text-center">Cards</h1>
+        </div>
+      </div>
+    </div>
+
+    <! ------------------------------------------------ Default -----------------------------------------------------!>
+
+    <div class="row subsection">
+      <div class="col-lg-12">
+        <h2>Default Cards</h2>
+
+        <h2><span class="label label-default">.card</span></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <%= image_tag 'c64.jpg', :class => 'card-img-top' %>
+
+          <div class="card-block">
+            <h4 class="card-title">Regular Card</h4>
+
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+            <a href="#" class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            Header
+          </div>
+
+          <div class="card-block">
+
+            <%= image_tag 'c64.jpg', :class => 'card-img-top' %>
+
+            <div class="card-block">
+              <h4 class="card-title">Card with header</h4>
+
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                of
+                the card's content.</p>
+              <a href="#" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <%= image_tag 'c64.jpg', :class => 'card-img-top' %>
+
+          <div class="card-block">
+            <h4 class="card-title">Card with footer</h4>
+
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+            <a href="#" class="btn btn-primary">Button</a>
+          </div>
+          <div class="card-footer">
+            Footer here!
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <! ------------------------------------------------ Grouped -----------------------------------------------------!>
+
+    <div class="row subsection">
+      <div class="col-lg-12">
+        <h2>Grouped Cards</h2>
+
+        <h2><span class="label label-default">.card-group</span></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card-group">
+          <div class="card">
+            <%= image_tag 'c64.jpg', :class => 'card-img-top' %>
+
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+
+              <p class="card-text">Hier steht etwas Text. Nicht viel, aber eben etwas.</p>
+
+              <p class="card-text">
+                <small class="text-muted">Lorem</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <%= image_tag 'c64.jpg', :class => 'card-img-top' %>
+
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+
+              <p class="card-text">Hier nur wenig Text.</p>
+
+              <p class="card-text">
+                <small class="text-muted">Ipsum</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <%= image_tag 'c64.jpg', :class => 'card-img-top' %>
+
+            <div class="card-block">
+              <h4 class="card-title">Card title</h4>
+
+              <p class="card-text">Hier ganz viel Text.Hier ganz viel Text.Hier ganz viel Text.Hier ganz
+                viel Text.Hier ganz viel Text.Hier ganz viel Text.Hier ganz viel Text.Hier ganz viel
+                Text.Hier ganz viel Text.Hier ganz viel Text.Hier ganz viel Text.Hier ganz viel
+                Text.Hier ganz viel Text.</p>
+
+              <p class="card-text">
+                <small class="text-muted">Man beachte die gleichbleibende Höhe der Cards!</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <! ------------------------------------------------ Decks ----------------------------------------------------- !>
+
+    <div class="row subsection">
+      <div class="col-lg-12">
+        <h2>Decks</h2>
+
+        <h2><span class="label label-default">.card-deck</span></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card-deck-wrapper">
+          <div class="card-deck">
+            <div class="card">
+              <%= image_tag 'c64.jpg', :class => 'card-img-top' %>
+
+              <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <%= image_tag 'c64.jpg', :class => 'card-img-top' %>
+
+              <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <%= image_tag 'c64.jpg', :class => 'card-img-top' %>
+              <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This card has even longer content than the first to show that equal height action.</p>
+
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <! ------------------------------------------------ Columns -----------------------------------------------------!>
+
+    <div class="row subsection">
+      <div class="col-lg-12">
+        <h2>Columns</h2>
+
+        <h2><span class="label label-default">.card-columns</span></h2>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card-columns">
+
+          <div class="card card-block">
+            <h4 class="card-title">1</h4>
+
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title">2</h4>
+
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+
+
+          <div class="card card-block">
+            <h4 class="card-title">3</h4>
+
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+
+          <div class="card card-block">
+            <h4 class="card-title">4</h4>
+            <%= image_tag 'c64.jpg', :class => 'card-img' %>
+
+
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+
+          </div>
+          <div class="card card-block">
+            <h4 class="card-title">5</h4>
+
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card">
+            <%= image_tag 'c64.jpg', :class => 'card-img' %>
+            <div class="card-block"><h4 class="card-title">6</h4>
+
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+          <div class="card card-block">
+            <h4 class="card-title">7</h4>
+
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+
+          <div class="card card-block">
+            <h4 class="card-title">8</h4>
+
+            <p class="card-text">This is a wider card with supporting text b a wider card with supporting text b a wider
+              card with supporting text below </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

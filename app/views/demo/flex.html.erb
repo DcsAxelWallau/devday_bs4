@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <title>Flexbox Demo</title>
+  <%= stylesheet_link_tag 'flex' %>
+</head>
+<body>
+
+<div id="flex_demo_container" class="flex">
+  <div id="flex_header" class="flex padding">
+    <h2>Header</h2>
+    <div id="flex_icons">
+      <% %w(alarm bulb home settings trash).each do |ico| %>
+        <%= image_tag "icon_#{ico}.png" %>
+      <% end %>
+    </div>
+  </div>
+  <div id="flex_body" class="flex">
+    <div id="flex_main" class="padding">Main</div>
+    <div id="flex_nav" class="padding">
+      <ul>
+        <% (1..7).each do |idx| %>
+          <li><%= idx %></li>
+        <% end %>
+      </ul>
+    </div>
+    <div id="flex_sidebar" class="padding">Sidebar</div>
+  </div>
+  <div id="flex_footer" class="padding">Footer</div>
+</div>
+</body>
+</html>
+
+
